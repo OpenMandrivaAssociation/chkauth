@@ -1,6 +1,6 @@
 %define name chkauth
 %define version 0.3
-%define release 2mdk
+%define release %mkrel 3
 	
 Summary: Script to change authentification method (local, NIS, LDAP)
 Name: %{name}

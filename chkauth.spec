@@ -10,6 +10,7 @@ Source0: %{name}-%{version}.tar.bz2
 BuildArch: noarch
 License: GPL
 Group: System/Configuration/Boot and Init
+BuildRoot: %{_tmppath}/%{name}-buildroot
 Prefix: %{_prefix}
 requires: perl >= 5.0
 

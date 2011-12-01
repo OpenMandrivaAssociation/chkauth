@@ -28,14 +28,14 @@ and LDAP.
 %build
 
 %install
-rm -rf $RPM_BUILD_ROOT
-mkdir -p $RPM_BUILD_ROOT/%{_mandir}/man8/
-mkdir -p $RPM_BUILD_ROOT/%{_sbindir}
-install chkauth $RPM_BUILD_ROOT/%{_sbindir}
-install chkauth.8 $RPM_BUILD_ROOT/%{_mandir}/man8/
+rm -rf %{buildroot}
+mkdir -p %{buildroot}/%{_mandir}/man8/
+mkdir -p %{buildroot}/%{_sbindir}
+install chkauth %{buildroot}/%{_sbindir}
+install chkauth.8 %{buildroot}/%{_mandir}/man8/
 
 %clean
-rm -rf $RPM_BUILD_ROOT
+rm -rf %{buildroot}
 
 %files
 %defattr(-,root,root)

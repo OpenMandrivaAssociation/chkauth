@@ -1,7 +1,7 @@
 Summary:	Script to change authentification method (local, NIS, LDAP)
 Name:		chkauth
 Version:	0.3
-Release:	16
+Release:	17
 License:	GPLv2
 Group:		System/Configuration/Boot and Init
 Url:		www.openmandriva.org
